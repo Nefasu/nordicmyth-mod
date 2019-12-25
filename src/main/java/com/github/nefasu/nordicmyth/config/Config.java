@@ -19,6 +19,7 @@ public class Config {
 	
 	static {
 		OreGenerationConfiguration.init(SERVER_BUILDER, CLIENT_BUILDER);
+		EntitySpawningConfiguration.init(SERVER_BUILDER, CLIENT_BUILDER);
 		
 		SERVER_CONFIG = SERVER_BUILDER.build();
 		CLIENT_CONFIG = CLIENT_BUILDER.build();

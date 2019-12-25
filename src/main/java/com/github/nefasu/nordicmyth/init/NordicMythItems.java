@@ -7,6 +7,7 @@ public class NordicMythItems {
 	// Svartin Items
 	public static Item svartin_ingot;
 	public static Item svartin_ore;
+	public static Item svartalf_egg;
 	// Svartin Tools
 	public static Item svartin_sword;
 	public static Item svartin_axe;
@@ -124,4 +125,9 @@ public class NordicMythItems {
 	public static Item godsteel_chestplate;
 	public static Item godsteel_leggings;
 	public static Item godsteel_boots;
+	
+	
+	// MISCEALLANEOUS
+	// Food
+	public static Item meatplate;
 }
