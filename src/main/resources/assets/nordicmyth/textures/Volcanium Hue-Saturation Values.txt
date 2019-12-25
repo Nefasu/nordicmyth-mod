@@ -1,0 +1,11 @@
+Volcanium (Gold Base) Values:
+Blade / Gold:
+-45
++10
+-20
+Handle / Brown:
+"
+"
+-50
+
+

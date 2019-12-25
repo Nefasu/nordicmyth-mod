@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern": [
+	  "I",
+	  "I",
+	  "S"
+	],
+	
+	"key": {
+	  "I": { "item": "nordicmyth:svartin_ingot" },
+	  "S": {"item": "minecraft:stick" }
+	},
+	
+	"result": { "item": "nordicmyth:svartin_sword" }
+}

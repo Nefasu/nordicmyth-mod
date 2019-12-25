@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:blasting",
+	
+	"ingredient": [
+		{ "tag": "nordicmyth:svartin_ore" },
+		{ "item": "nordicmyth:svartin_sword" },
+		{ "item": "nordicmyth:svartin_axe" },
+		{ "item": "nordicmyth:svartin_pickaxe" },
+		{ "item": "nordicmyth:svartin_shovel" },
+		{ "item": "nordicmyth:svartin_hoe" },
+		{ "item": "nordicmyth:svartin_helmet" },
+		{ "item": "nordicmyth:svartin_chestplate" },
+		{ "item": "nordicmyth:svartin_leggings" },
+		{ "item": "nordicmyth:svartin_boots" }
+	],
+	
+	"result": "nordicmyth:svartin_ingot",
+	
+	"experience": 0.8,
+	
+	"cookingtime": 125
+}

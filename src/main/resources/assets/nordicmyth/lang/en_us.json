@@ -1,0 +1,126 @@
+{
+	// GENERAL
+	"itemGroup.nordicmythitemgroup": "Nordic Mythology Items",
+	
+	
+	// SVARTALFHEIM
+	// Svartin Items
+	"item.nordicmyth.svartin_ingot": "Svartin Ingot",
+	"block.nordicmyth.svartin_ore": "Svartin Ore",
+	// Svartin Tools
+	"item.nordicmyth.svartin_sword": "Svartin Sword",
+	"item.nordicmyth.svartin_axe": "Svartin Axe",
+	"item.nordicmyth.svartin_pickaxe": "Svartin Pickaxe",
+	"item.nordicmyth.svartin_shovel": "Svartin Shovel",
+	"item.nordicmyth.svartin_hoe": "Svartin Hoe",
+	// Svartin Armor
+	"item.nordicmyth.svartin_helmet": "Svartin Helmet",
+	"item.nordicmyth.svartin_chestplate": "Svartin Chestplate",
+	"item.nordicmyth.svartin_leggings": "Svartin Leggings",
+	"item.nordicmyth.svartin_boots": "Svartin Boots",
+	
+	
+	// JOETUNHEIM
+	// Jotunite Items
+	"item.nordicmyth.jotunite_ingot": "Jotunite Ingot",
+	// Jotunite Tools
+	"item.nordicmyth.jotunite_sword": "Jotunite Sword",
+	"item.nordicmyth.jotunite_axe": "Jotunite Axe",
+	"item.nordicmyth.jotunite_pickaxe": "Jotunite Pickaxe",
+	"item.nordicmyth.jotunite_shovel": "Jotunite Shovel",
+	"item.nordicmyth.jotunite_hoe": "Jotunite Hoe",
+	// Jotunite Armor
+	"item.nordicmyth.jotunite_helmet": "Jotunite Helmet",
+	"item.nordicmyth.jotunite_chestplate": "Jotunite Chestplate",
+	"item.nordicmyth.jotunite_leggings": "Jotunite Leggings",
+	"item.nordicmyth.jotunite_boots": "Jotunite Boots",
+	
+	
+	// MUSPELHEIM
+	// Volcanium Items
+	"item.nordicmyth.volcanium_ingot": "Volcanium Ingot",
+	// Volcanium Tools
+	"item.nordicmyth.volcanium_sword": "Volcanium Sword",
+	"item.nordicmyth.volcanium_axe": "Volcanium Axe",
+	"item.nordicmyth.volcanium_pickaxe": "Volcanium Pickaxe",
+	"item.nordicmyth.volcanium_shovel": "Volcanium Shovel",
+	"item.nordicmyth.volcanium_hoe": "Volcanium Hoe",
+	// Volcanium Armor
+	"item.nordicmyth.volcanium_helmet": "Volcanium Helmet",
+	"item.nordicmyth.volcanium_chestplate": "Volcanium Chestplate",
+	"item.nordicmyth.volcanium_leggings": "Volcanium Leggings",
+	"item.nordicmyth.volcanium_boots": "Volcanium Boots",
+	
+	
+	// NIFLHEIM
+	// Frostborne Items
+	"item.nordicmyth.frostborne_ingot": "Frostborne Ingot",
+	// Frostborne Tools
+	"item.nordicmyth.frostborne_sword": "Frostborne Sword",
+	"item.nordicmyth.frostborne_axe": "Frostborne Axe",
+	"item.nordicmyth.frostborne_pickaxe": "Frostborne Pickaxe",
+	"item.nordicmyth.frostborne_shovel": "Frostborne Shovel",
+	"item.nordicmyth.frostborne_hoe": "Frostborne Hoe",
+	// Frostborne Armor
+	"item.nordicmyth.frostborne_helmet": "Frostborne Helmet",
+	"item.nordicmyth.frostborne_chestplate": "Frostborne Chestplate",
+	"item.nordicmyth.frostborne_leggings": "Frostborne Leggings",
+	"item.nordicmyth.frostborne_boots": "Frostborne Boots",
+	
+	// LIOSSALFHEIM
+	// Radiance Items
+	"item.nordicmyth.radiance_ingot": "Radiance Ingot",
+	// Radiance Tools
+	"item.nordicmyth.radiance_sword": "Radiance Sword",
+	"item.nordicmyth.radiance_axe": "Radiance Axe",
+	"item.nordicmyth.radiance_pickaxe": "Radiance Pickaxe",
+	"item.nordicmyth.radiance_shovel": "Radiance Shovel",
+	"item.nordicmyth.radiance_hoe": "Radiance Hoe",
+	// Radiance Armor
+	"item.nordicmyth.radiance_helmet": "Radiance Helmet",
+	"item.nordicmyth.radiance_chestplate": "Radiance Chestplate",
+	"item.nordicmyth.radiance_leggings": "Radiance Leggings",
+	"item.nordicmyth.radiance_boots": "Radiance Boots",
+	
+	
+	// HELHEIM
+	// Purgatorium Items
+	"item.nordicmyth.purgatorium_ingot": "Purgatorium Ingot",
+	// Purgatorium Tools
+	"item.nordicmyth.purgatorium_sword": "Purgatorium Sword",
+	"item.nordicmyth.purgatorium_axe": "Purgatorium Axe",
+	"item.nordicmyth.purgatorium_pickaxe": "Purgatorium Pickaxe",
+	"item.nordicmyth.purgatorium_shovel": "Purgatorium Shovel",
+	"item.nordicmyth.purgatorium_hoe": "Purgatorium Hoe",
+	// Purgatorium Armor
+	"item.nordicmyth.purgatorium_helmet": "Purgatorium Helmet",
+	"item.nordicmyth.purgatorium_chestplate": "Purgatorium Chestplate",
+	"item.nordicmyth.purgatorium_leggings": "Purgatorium Leggings",
+	"item.nordicmyth.purgatorium_boots": "Purgatorium Boots",
+	
+	
+	// VANAHEIM
+	// Seidr Items
+	"item.nordicmyth.seidr_ingot": "Seidr Ingot",
+	// Seidr Tools
+	"item.nordicmyth.seidr_hoe": "Seidr Hoe",
+	// Seidr Armor
+	"item.nordicmyth.seidr_helmet": "Seidr Helmet",
+	"item.nordicmyth.seidr_chestplate": "Seidr Chestplate",
+	"item.nordicmyth.seidr_leggings": "Seidr Leggings",
+	"item.nordicmyth.seidr_boots": "Seidr Boots",
+	
+	
+	// ASGARD
+	// Asgard Blocks
+	"block.nordicmyth.asgard_floor_block": "Asgard Floor",
+	// Godsteel Items
+	"item.nordicmyth.godsteel_ingot": "Godsteel Ingot",
+	// Godsteel Tools
+	"item.nordicmyth.godsteel_axe": "Godsteel Axe",
+	// Godsteel Armor
+	"item.nordicmyth.godsteel_helmet": "Godsteel Helmet",
+	"item.nordicmyth.godsteel_chestplate": "Godsteel Chestplate",
+	"item.nordicmyth.godsteel_leggings": "Godsteel Leggings",
+	"item.nordicmyth.godsteel_boots": "Godsteel Boots"
+}

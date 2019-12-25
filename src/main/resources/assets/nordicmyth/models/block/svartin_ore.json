@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "nordicmyth:block/svartin_ore"
+    }
+}

@@ -1,0 +1,113 @@
+~~~ Svartin - Black (Chainmail base) Values ~~~
+Inner (Sat.):
++0
++0
+-65
+
+Outline (Sat.):
+"
+"
+- 80
+
+
+~~~ Jotunite - Brown (Iron base) Values ~~~
+Inner (Colorize):
++35
++20
+-60
+
+Outline (Colorize):
+"
+"
+" (-80 for armor layer)
+
+
+~~~ Volcanium - Red (Gold Base) Values ~~~
+Inner:
+-45
++10
+-20
+Outline:
+"
+"
+-50
+
+
+~~~ Frostborne - Blue (Iron base) Values ~~~
+Inner (Colorize):
++185
++100
++50
+
+Outline Armor (Colorize):
++220
++100
++85
+
+Outline Tools (Colorize):
++220
++100
+-50
+
+
+~~~ Radiance - Yellow (Gold base) Values ~~~
+Inner:
++0
++100
++50
+
+Outline Armor:
+"
+"
++90
+
+Outline Tool:
+"
+"
+-75
+
+
+~~~ Purgatorium - Light Green (Diamond base) Values ~~~
+Inner (Sat.):
+-70
++100
+-35
+
+Outline Armor (Sat.):
+"
+"
++50
+
+Outline Tools (Sat.):
+"
+"
+-60
+
+
+~~~ Seidr - Dark Green (Leather base) Values ~~~
+Inner (Colorize):
++70
++25
+-40
+
+Outline Armor (Colorize):
++65
++50
+-25
+
+Outline Items (Colorize):
++65
++50
++35
+
+
+~~~ Godsteel - White (Iron base) Values ~~~
+Inner (Sat.):
++0
++0
++75
+
+Outline (Sat.):
+"
+"
+-35
