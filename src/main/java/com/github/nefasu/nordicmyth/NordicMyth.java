@@ -3,6 +3,7 @@ package com.github.nefasu.nordicmyth;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.github.nefasu.nordicmyth.client.renders.NordicMythRenderRegistry;
 import com.github.nefasu.nordicmyth.config.Config;
 import com.github.nefasu.nordicmyth.init.NordicMythArmorMaterials;
 import com.github.nefasu.nordicmyth.init.NordicMythBlocks;
@@ -65,6 +66,7 @@ public class NordicMyth {
 	}
 	
 	private void clientRegistries(final FMLClientSetupEvent event) {
+		NordicMythRenderRegistry.registerEntityRenders();
 		LOGGER.info("Client registries method registered.");
 	}
 }

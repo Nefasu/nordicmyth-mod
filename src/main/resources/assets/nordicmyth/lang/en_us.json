@@ -3,6 +3,11 @@
 	"itemGroup.nordicmythitemgroup": "Nordic Mythology Items",
 	
 	
+	// ENTITIES
+	"entity.nrodicmyth.svartalf_entity": "Svartalf",
+	"item.nrodicmyth.svartalf_entity_egg": "Svartalf Spawn Egg",
+	
+	
 	// SVARTALFHEIM
 	// Svartin Items
 	"item.nordicmyth.svartin_ingot": "Svartin Ingot",

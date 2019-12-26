@@ -8,11 +8,11 @@ import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.world.World;
 
-public class Svartalf extends CreatureEntity {
+public class SvartalfEntity extends CreatureEntity {
 
 	@SuppressWarnings("unchecked")
-	protected Svartalf(EntityType<? extends CreatureEntity> type, World worldIn) {
-		super((EntityType<? extends CreatureEntity>)NordicMythEntities.svartalf, worldIn);
+	public SvartalfEntity(EntityType<? extends CreatureEntity> type, World worldIn) {
+		super((EntityType<? extends CreatureEntity>)NordicMythEntities.svartalf_entity, worldIn);
 	}
 
 	@Override

@@ -264,7 +264,7 @@ public class NordicMythRegistries {
 	{
 		event.getRegistry().registerAll
 		(
-			NordicMythEntities.svartalf
+			NordicMythEntities.svartalf_entity
 		);
 		
 		NordicMythEntities.registerEntityWorldSpawns();
