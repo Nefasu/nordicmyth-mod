@@ -50,7 +50,7 @@ public class NordicMythEntities {
 	
 	public static Item RegisterEntitySpawnEgg(EntityType<?> type, int color1, int color2, String name) {
 		SpawnEggItem item =  new SpawnEggItem(type, color1, color2, new Item.Properties()
-				.group(new NordicMythItemGroup()));
+				.group(NordicMyth.NORDICITEMGROUP));
 		item.setRegistryName(NordicMythRegistries.location(name));
 		
 		return item;
