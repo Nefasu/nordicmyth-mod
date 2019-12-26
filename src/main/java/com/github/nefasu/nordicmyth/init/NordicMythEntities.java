@@ -1,7 +1,6 @@
 package com.github.nefasu.nordicmyth.init;
 
 import com.github.nefasu.nordicmyth.NordicMyth;
-import com.github.nefasu.nordicmyth.NordicMythItemGroup;
 import com.github.nefasu.nordicmyth.NordicMythRegistries;
 import com.github.nefasu.nordicmyth.config.EntitySpawningConfiguration;
 import com.github.nefasu.nordicmyth.entities.SvartalfEntity;
