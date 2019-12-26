@@ -26,12 +26,12 @@ public class OreGeneration {
 			biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, 
 					new OreFeatureConfig(FillerBlockType.NATURAL_STONE, NordicMythBlocks.svartin_ore.getDefaultState(),
 							OreGenerationConfiguration.svartin_vein_size.get()), 
-					Placement.COUNT_RANGE, SVARTIN_ORE_PLACEMENT));
+					Placement.COUNT_RANGE, SVARTIN_ORE_PLACEMENT)); // Svartin Ore Midgard
 		}
 
 		Biomes.NETHER.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, 
 				new OreFeatureConfig(FillerBlockType.NETHERRACK, NordicMythBlocks.svartin_ore.getDefaultState(),
 						OreGenerationConfiguration.svartin_vein_size.get()), 
-				Placement.COUNT_RANGE, SVARTIN_ORE_PLACEMENT));
+				Placement.COUNT_RANGE, SVARTIN_ORE_PLACEMENT)); // Svartin Ore Svartalfheim
 	}	
 }

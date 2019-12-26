@@ -32,14 +32,14 @@ public class NordicMythRegistries {
 	public static void  registerItems(final RegistryEvent.Register<Item> event) {
 		event.getRegistry().registerAll(
 			// SVARTALFHEIM
-			// Svartalfheim Block declaration
+			// Svartalfheim Blocks
 			NordicMythItems.svartin_ore = new BlockItem(NordicMythBlocks.svartin_ore, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(NordicMythBlocks.svartin_ore.getRegistryName()),
-			// Svartin Item declaration
+			// Svartin Items
 			NordicMythItems.svartin_ingot = new Item(new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 				.setRegistryName(location("svartin_ingot")),
-			// Svartin Tool declaration
+			// Svartin Tools
 			NordicMythItems.svartin_sword = new SwordItem(NordicMythToolMaterials.SVARTIN, 0, -2.6f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("svartin_sword")),
@@ -54,7 +54,7 @@ public class NordicMythRegistries {
 					.setRegistryName(location("svartin_shovel")),
 			NordicMythItems.svartin_hoe = new HoeItem(NordicMythToolMaterials.SVARTIN, -2.6f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("svartin_hoe")),
-			// Svartin Armor declaration
+			// Svartin Armor
 			NordicMythItems.svartin_helmet = new ArmorItem(NordicMythArmorMaterials.SVARTIN, EquipmentSlotType.HEAD, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("svartin_helmet")),
@@ -70,10 +70,10 @@ public class NordicMythRegistries {
 			
 			
 			// JOETUNHEIM
-			// Jotunite Item declaration
+			// Jotunite Items
 				NordicMythItems.jotunite_ingot = new Item(new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 				.setRegistryName(location("jotunite_ingot")),
-			// Jotunite Tool declaration
+			// Jotunite Tools
 			NordicMythItems.jotunite_sword = new SwordItem(NordicMythToolMaterials.JOTUNITE, 0, -2.4f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("jotunite_sword")),
@@ -87,7 +87,7 @@ public class NordicMythRegistries {
 					.setRegistryName(location("jotunite_shovel")),
 			NordicMythItems.jotunite_hoe = new HoeItem(NordicMythToolMaterials.JOTUNITE, -2.4f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("jotunite_hoe")),
-			// Jotunite Armor declaration
+			// Jotunite Armor
 			NordicMythItems.jotunite_helmet = new ArmorItem(NordicMythArmorMaterials.JOTUNITE, EquipmentSlotType.HEAD, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("jotunite_helmet")),
@@ -103,10 +103,10 @@ public class NordicMythRegistries {
 			
 			
 			// MUSPELHEIM
-			// Volcanium Item declaration
+			// Volcanium Items
 			NordicMythItems.volcanium_ingot = new Item(new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("volcanium_ingot")),
-			// Volcanium Tool declaration
+			// Volcanium Tools
 			NordicMythItems.volcanium_sword = new SwordItem(NordicMythToolMaterials.VOLCANIUM, 0, -2.2f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("volcanium_sword")),
@@ -120,7 +120,7 @@ public class NordicMythRegistries {
 					.setRegistryName(location("volcanium_shovel")),
 			NordicMythItems.volcanium_hoe = new HoeItem(NordicMythToolMaterials.VOLCANIUM, -2.2f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("volcanium_hoe")),
-			// Volcanium Armor declaration
+			// Volcanium Armor
 			NordicMythItems.volcanium_helmet = new ArmorItem(NordicMythArmorMaterials.VOLCANIUM, EquipmentSlotType.HEAD, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("volcanium_helmet")),
@@ -136,10 +136,10 @@ public class NordicMythRegistries {
 			
 			
 			// NIFLHEIM
-			// Frostborne Item declaration
+			// Frostborne Items
 			NordicMythItems.frostborne_ingot = new Item(new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("frostborne_ingot")),
-			// Frostborne Tool declaration
+			// Frostborne Tools
 			NordicMythItems.frostborne_sword = new SwordItem(NordicMythToolMaterials.FROSTBORNE, 0, -2.0f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("frostborne_sword")),
@@ -155,7 +155,7 @@ public class NordicMythRegistries {
 			NordicMythItems.frostborne_hoe = new HoeItem(NordicMythToolMaterials.FROSTBORNE, -2.0f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("frostborne_hoe")),
-			// Frostborne Armor declaration
+			// Frostborne Armor
 			NordicMythItems.frostborne_helmet = new ArmorItem(NordicMythArmorMaterials.FROSTBORNE, 
 					EquipmentSlotType.HEAD, new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("frostborne_helmet")),
@@ -171,10 +171,10 @@ public class NordicMythRegistries {
 			
 			
 			// LIOSSALFHEIM
-			// Radiance Item declaration
+			// Radiance Items
 			NordicMythItems.radiance_ingot = new Item(new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("radiance_ingot")),
-			// Radiance Tool declaration
+			// Radiance Tools
 			NordicMythItems.radiance_sword = new SwordItem(NordicMythToolMaterials.RADIANCE, 0, -1.6f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("radiance_sword")),
@@ -188,7 +188,7 @@ public class NordicMythRegistries {
 					.setRegistryName(location("radiance_shovel")),
 			NordicMythItems.radiance_hoe = new HoeItem(NordicMythToolMaterials.RADIANCE, -1.6f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("radiance_hoe")),
-			// Radiance Armor declaration
+			// Radiance Armor
 			NordicMythItems.radiance_helmet = new ArmorItem(NordicMythArmorMaterials.RADIANCE, EquipmentSlotType.HEAD, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("radiance_helmet")),
@@ -203,10 +203,10 @@ public class NordicMythRegistries {
 					.setRegistryName(location("radiance_boots")),
 			
 			// HELHEIM
-			// Purgatorium Item declaration
+			// Purgatorium Items
 			NordicMythItems.purgatorium_ingot = new Item(new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("purgatorium_ingot")),
-			// Purgatorium Tool declaration
+			// Purgatorium Tools
 			NordicMythItems.purgatorium_sword = new SwordItem(NordicMythToolMaterials.PURGATORIUM, 0, -1.2f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("purgatorium_sword")),
@@ -222,7 +222,7 @@ public class NordicMythRegistries {
 			NordicMythItems.purgatorium_hoe = new HoeItem(NordicMythToolMaterials.PURGATORIUM, -1.2f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("purgatorium_hoe")),
-			// Purgatorium Armor declaration
+			// Purgatorium Armor
 			NordicMythItems.purgatorium_helmet = new ArmorItem(NordicMythArmorMaterials.PURGATORIUM, 
 					EquipmentSlotType.HEAD, new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("purgatorium_helmet")),
@@ -238,13 +238,13 @@ public class NordicMythRegistries {
 					
 					
 			// VANAHEIM
-			// Seidr Item declaration
+			// Seidr Items
 			NordicMythItems.seidr_ingot = new Item(new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("seidr_ingot")),
-			// Seidr Tool declaration
+			// Seidr Tools
 			NordicMythItems.seidr_hoe = new HoeItem(NordicMythToolMaterials.SEIDR, -0.6f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("seidr_hoe")),
-			// Seidr Armor declaration
+			// Seidr Armor
 			NordicMythItems.seidr_helmet = new ArmorItem(NordicMythArmorMaterials.SEIDR, EquipmentSlotType.HEAD, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("seidr_helmet")),
 			NordicMythItems.seidr_chestplate = new ArmorItem(NordicMythArmorMaterials.SEIDR, EquipmentSlotType.CHEST, 
@@ -257,17 +257,17 @@ public class NordicMythRegistries {
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("seidr_boots")),
 			
 			// ASGARD
-			// Asgard Block declaration
+			// Asgard Blocks
 			NordicMythItems.asgard_floor_block = new BlockItem(NordicMythBlocks.asgard_floor_block, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(NordicMythBlocks.asgard_floor_block.getRegistryName()),
-			// Godsteel Item declaration
+			// Godsteel Items
 			NordicMythItems.godsteel_ingot = new Item(new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("godsteel_ingot")),
 			// Godsteel Tool declaration
 			NordicMythItems.godsteel_axe = new AxeItem(NordicMythToolMaterials.GODSTEEL, -20.5f, -4.5f, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("godsteel_axe")),
-			// Godsteel Armor declaration
+			// Godsteel Armor
 			NordicMythItems.godsteel_helmet = new ArmorItem(NordicMythArmorMaterials.GODSTEEL, EquipmentSlotType.HEAD, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP))
 					.setRegistryName(location("godsteel_helmet")),
@@ -284,8 +284,7 @@ public class NordicMythRegistries {
 			
 			
 			// MISCEALLANEOUS
-			// Food Item declaration
-			// TODO: MEATPLATE DOES NOT WORK YET!!
+			// Food Items
 			NordicMythItems.meatplate = new Item(new Item.Properties().group(ItemGroup.FOOD)
 					.group(NordicMyth.NORDICITEMGROUP).food(Foods.RABBIT_STEW)).setRegistryName(location("meatplate"))
 		);

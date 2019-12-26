@@ -12,7 +12,7 @@ public enum NordicMythArmorMaterials implements IArmorMaterial {
 	SVARTIN("nordicmyth:svartin", 400, new int[] {4, 9, 7, 4}, 25, 
 			NordicMythItems.svartin_ingot, "item.armor.equip_chainmail", 2.1f), // Svartalfheim
 	JOTUNITE("nordicmyth:jotunite", 600, new int[] {6, 13, 10, 6}, 28, 
-			NordicMythItems.jotunite_ingot, "item.armor.equip_chainmail", 2.2f), // Jötunheim
+			NordicMythItems.jotunite_ingot, "item.armor.equip_chainmail", 2.2f), // Joetunheim
 	VOLCANIUM("nordicmyth:volcanium", 900, new int[] {9, 20, 16, 9}, 32, 
 			NordicMythItems.volcanium_ingot, "item.armor.equip_gold", 2.4f), // Muspelheim
 	FROSTBORNE("nordicmyth:frostborne", 1200, new int[] {12, 27, 21, 34}, 35, 
