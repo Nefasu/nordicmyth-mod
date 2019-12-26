@@ -3,6 +3,9 @@ package com.github.nefasu.nordicmyth.init;
 import net.minecraft.item.Item;
 
 public class NordicMythItems {	
+	// ENTITIES
+	public static Item svartalf_entity_egg;
+	
 	// SVARTALFHEIM
 	// Svartin Items
 	public static Item svartin_ingot;
@@ -124,4 +127,9 @@ public class NordicMythItems {
 	public static Item godsteel_chestplate;
 	public static Item godsteel_leggings;
 	public static Item godsteel_boots;
+	
+	
+	// MISCEALLANEOUS
+	// Food
+	public static Item meatplate;
 }

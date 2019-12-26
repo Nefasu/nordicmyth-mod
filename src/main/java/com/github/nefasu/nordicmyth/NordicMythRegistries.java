@@ -2,6 +2,7 @@ package com.github.nefasu.nordicmyth;
 
 import com.github.nefasu.nordicmyth.init.NordicMythArmorMaterials;
 import com.github.nefasu.nordicmyth.init.NordicMythBlocks;
+import com.github.nefasu.nordicmyth.init.NordicMythEntities;
 import com.github.nefasu.nordicmyth.init.NordicMythItems;
 import com.github.nefasu.nordicmyth.init.NordicMythToolMaterials;
 
@@ -225,8 +226,18 @@ public class NordicMythRegistries {
 			NordicMythItems.godsteel_leggings = new ArmorItem(NordicMythArmorMaterials.GODSTEEL, EquipmentSlotType.LEGS, 
 					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("godsteel_leggings")),
 			NordicMythItems.godsteel_boots = new ArmorItem(NordicMythArmorMaterials.GODSTEEL, EquipmentSlotType.FEET, 
-					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("godsteel_boots"))
+					new Item.Properties().group(NordicMyth.NORDICITEMGROUP)).setRegistryName(location("godsteel_boots")),
+
+			
+			
+			// MISCEALLANEOUS
+			// Food Item declaration
+			// TODO: MEATPLATE DOES NOT WORK YET!!
+			NordicMythItems.meatplate = new Item(new Item.Properties().group(ItemGroup.FOOD)
+					.group(NordicMyth.NORDICITEMGROUP).food(Foods.RABBIT_STEW)).setRegistryName(location("meatplate"))
 		);
+		
+		NordicMythEntities.registerEntitySpawnEggs(event);
 		
 		NordicMyth.LOGGER.info("Items registered.");
 	}
@@ -253,9 +264,10 @@ public class NordicMythRegistries {
 	{
 		event.getRegistry().registerAll
 		(
-
+			NordicMythEntities.svartalf_entity
 		);
 		
+		NordicMythEntities.registerEntityWorldSpawns();
 	}
 	
 	public static ResourceLocation location(String name) {
