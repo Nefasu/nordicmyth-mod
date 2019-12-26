@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients": [
+		{ "tag": "nordicmyth:cooked_fishes" },
+		{ "tag": "nordicmyth:cooked_fishes" },
+		{ "tag": "nordicmyth:cooked_fishes" },
+		{ "tag": "nordicmyth:cooked_meat" },
+		{ "tag": "nordicmyth:cooked_meat" },
+		{ "tag": "nordicmyth:cooked_meat" },
+		{ "tag": "nordicmyth:cooked_meat_and_fishes" },
+		{ "tag": "nordicmyth:cooked_meat_and_fishes" },
+		{ "item": "minecraft:bowl" }
+	],
+	
+	"result": { "item": "nordicmyth:meatplate" }
+}
