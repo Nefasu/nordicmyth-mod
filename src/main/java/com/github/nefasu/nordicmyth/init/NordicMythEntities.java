@@ -24,7 +24,8 @@ public class NordicMythEntities {
 	{
 		event.getRegistry().registerAll
 		(
-			NordicMythItems.svartalf_entity_egg = RegisterEntitySpawnEgg(svartalf_entity, 0x261a0d, 0x000000, "svartalf_entity_egg")
+			NordicMythItems.svartalf_entity_egg = 
+				RegisterEntitySpawnEgg(svartalf_entity, 0x261a0d, 0x000000, "svartalf_entity_egg")
 		);
 		
 	}

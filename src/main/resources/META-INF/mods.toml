@@ -2,7 +2,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[27,)" #mandatory (28 is current forge version)
 [[mods]] #mandatory
 modId="nordicmyth" #mandatory
-version="0.1.0" #mandatory
+version="0.0.3" #mandatory
 displayName="Nordic Mythology" #mandatory
 description='''
 This mod includes nordic mythology.
