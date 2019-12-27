@@ -30,21 +30,22 @@ public class NordicMythEntities {
 	}
 	
 	public static void registerEntityWorldSpawns() {
-		registerEntityWorldSpawn(svartalf_entity, Biomes.BADLANDS, Biomes.BADLANDS_PLATEAU, 
-				Biomes.DARK_FOREST, Biomes.DARK_FOREST_HILLS, Biomes.DESERT, Biomes.DESERT_HILLS, Biomes.END_BARRENS, 
-				Biomes.END_HIGHLANDS, Biomes.END_MIDLANDS, Biomes.ERODED_BADLANDS, Biomes.FOREST, 
-				Biomes.GIANT_SPRUCE_TAIGA, Biomes.GIANT_SPRUCE_TAIGA_HILLS, Biomes.GIANT_TREE_TAIGA, 
-				Biomes.GIANT_TREE_TAIGA_HILLS, Biomes.GRAVELLY_MOUNTAINS, Biomes.MOUNTAINS, Biomes.NETHER, 
-				Biomes.SAVANNA, Biomes.SAVANNA_PLATEAU, Biomes.SHATTERED_SAVANNA, Biomes.SHATTERED_SAVANNA_PLATEAU,
-				Biomes.SMALL_END_ISLANDS, Biomes.STONE_SHORE, Biomes.SWAMP_HILLS, Biomes.TAIGA_HILLS, 
-				Biomes.TAIGA_MOUNTAINS, Biomes.THE_END, Biomes.WOODED_BADLANDS_PLATEAU, Biomes.WOODED_HILLS,
-				Biomes.WOODED_MOUNTAINS);
+		registerEntityWorldSpawn(svartalf_entity, EntitySpawningConfiguration.svartalf_spawn_chance_midgard.get(), 1, 1,
+				Biomes.BADLANDS, Biomes.BADLANDS_PLATEAU, Biomes.DARK_FOREST, Biomes.DARK_FOREST_HILLS, Biomes.DESERT, 
+				Biomes.DESERT_HILLS, Biomes.END_BARRENS, Biomes.END_HIGHLANDS, Biomes.END_MIDLANDS, 
+				Biomes.ERODED_BADLANDS, Biomes.FOREST, Biomes.GIANT_SPRUCE_TAIGA, Biomes.GIANT_SPRUCE_TAIGA_HILLS, 
+				Biomes.GIANT_TREE_TAIGA, Biomes.GIANT_TREE_TAIGA_HILLS, Biomes.GRAVELLY_MOUNTAINS, Biomes.MOUNTAINS, 
+				Biomes.NETHER, Biomes.SAVANNA, Biomes.SAVANNA_PLATEAU, Biomes.SHATTERED_SAVANNA, 
+				Biomes.SHATTERED_SAVANNA_PLATEAU,Biomes.SMALL_END_ISLANDS, Biomes.STONE_SHORE, Biomes.SWAMP_HILLS, 
+				Biomes.TAIGA_HILLS, Biomes.TAIGA_MOUNTAINS, Biomes.THE_END, Biomes.WOODED_BADLANDS_PLATEAU, 
+				Biomes.WOODED_HILLS,Biomes.WOODED_MOUNTAINS);
 	}
 
-	public static void registerEntityWorldSpawn(EntityType<?> entity, Biome... biomes) {
+	public static void registerEntityWorldSpawn(EntityType<?> entity, int spawnChance, int minSpawnCount, 
+			int maxSpawnCount, Biome... biomes) {
 		for(Biome biome : biomes) {
-			biome.getSpawns(entity.getClassification()).add(new SpawnListEntry(entity, 
-					EntitySpawningConfiguration.svartalf_spawn_chance.get(), 1, 10));
+			biome.getSpawns(entity.getClassification()).add(new SpawnListEntry(entity, spawnChance
+					, minSpawnCount, maxSpawnCount));
 		}
 	}
 	
